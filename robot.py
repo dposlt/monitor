@@ -1,26 +1,14 @@
 # -*- coding: UTF8 -*-
 import urllib.request, json
-'''
-web = ['https://legacy.gemoney.cz/gen/login',
-       'http://microsites.gemoney.cz',
-       'https://www.ieservis.cz/',
-       'https://www.beneplus.cz/',
-       'https://online.gemoney.cz/',
-       'https://www.gemoney.cz/lide',
-       'https://www.rozvojsnami.cz/',
-       'https://www.bankaproneslysici.cz/',
-       'https://www.gemoneyauto.cz/',
-       'https://www.gemoneyleasing.cz/',
-       'https://s.gemoney.cz/']
-'''
+
 
 with open( 'sites.json' ) as sitesData:
     data = json.load(sitesData)
     
   
     
-proxy = urllib.request.ProxyHandler({'http':'http://212437054:Santiago2016*06@proxyge:80' ,
-                                     'https': 'http://212437054:Santiago2016*06@proxyge:80'})
+proxy = urllib.request.ProxyHandler({'http':'http://user:passwd@proxy:8082' ,
+                                     'https': 'http://user:passwd@proxy:8082'})
 
 opener = urllib.request.build_opener(proxy)
 
