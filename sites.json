@@ -1,0 +1,26 @@
+{
+	"microsites": [{
+		"numberSite": "1"
+	}, {
+		"nameSite": "http://microsites.gemoney.cz"
+	}, {
+		"searchString": "Moneta"
+	}],
+
+	"legacy": [{
+		"numberSite": "2"
+	}, {
+		"nameSite": "https://legacy.gemoney.cz/gen/login"
+	}, {
+		"searchString": "Moneta"
+	}],
+    
+    "ieservis": [{
+		"numberSite": "3"
+	}, {
+		"nameSite": "https://www.ieservis.cz/"
+	}, {
+		"searchString": "Moneta"
+	}]
+    
+}
