@@ -1,26 +1,26 @@
 {
-	"microsites": [{
+	"micro": [{
 		"numberSite": "1"
 	}, {
-		"nameSite": "http://microsites.gemoney.cz"
+		"nameSite": "url"
 	}, {
-		"searchString": "Moneta"
+		"searchString": "tenis"
 	}],
 
 	"legacy": [{
 		"numberSite": "2"
 	}, {
-		"nameSite": "https://legacy.gemoney.cz/gen/login"
+		"nameSite": "url"
 	}, {
-		"searchString": "Moneta"
+		"searchString": "history"
 	}],
     
-    "ieservis": [{
+        "fifa": [{
 		"numberSite": "3"
 	}, {
-		"nameSite": "https://www.ieservis.cz/"
+		"nameSite": "url"
 	}, {
-		"searchString": "Moneta"
+		"searchString": "sucker"
 	}]
     
 }
